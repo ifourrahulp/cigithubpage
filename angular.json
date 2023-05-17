@@ -103,9 +103,21 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "cigithubpage"
+  "defaultProject": "cigithubpage",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
