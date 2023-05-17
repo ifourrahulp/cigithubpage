@@ -2,7 +2,7 @@ name: Angular Github CI Dev Completed
 on: 
   push:
     branches:
-      master
+      main
 
 jobs: 
   ci: 
